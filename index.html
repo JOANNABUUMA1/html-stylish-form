@@ -1,13 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Stylish Form</title>
-  </head>
-  <body>
 
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Stylish Form</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="text">
+      Say Hello!
+    </div>
+    <form action="#">
+      <div class="form-row">
+        <div class="input-data">
+          <label for="">Your Name</label>
+          <input type="text" required placeholder="Enter your name">
+          <div class="underline"></div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="input-data">
+          <label for="">Email Address</label>
+          <input type="email" required placeholder="Enter your email address">
+          <div class="underline"></div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="input-data">
+          <label for="">Needed Services</label>
+          <select required pla>
+            <option selected>Choose Services</option>
+            <option>Service 1</option>
+            <option>Service 2</option>
+            <option>Service 3</option>
+          </select>
+          <div class="underline"></div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="input-data">
+          <label for="">Budget</label>
+          <select type="select" required>
+            <option selected>Select Budget</option>
+            <option>1,000</option>
+            <option>2,000</option>
+            <option>3,000</option>
+          </select>
+
+          <div class="underline"></div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="input-data textarea">
+          <label for="">Message</label>
+          <textarea rows="8" cols="80" required placeholder="Your message here..."></textarea>
+          <br />
+          <div class="underline"></div>
+          <br />
+        </div>
+      </div>
+      <div class="form-row submit-btn">
+        <div class="input-data">
+          <div class="inner"></div>
+          <input type="submit" value="submit">
+        </div>
+      </div>
+
+    </form>
+  </div>
+
+</body>
+
 </html>
